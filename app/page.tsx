@@ -415,10 +415,11 @@ export default function LandingPage() {
         <a
           href="https://wa.me/85252393767"
           target="_blank"
-          className="bg-green-500 text-black px-6 py-3 rounded-xl font-semibold hover:bg-green-400 transition"
+          className="bg-green-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-700 transition"
         >
           💬 Chat on WhatsApp
         </a>
+
       </section>
 
       {/* Trust Badges */}
