@@ -337,7 +337,7 @@ export default function LandingPage() {
                     <div className="text-sm text-gray-600 mt-auto">
                       <div className="font-semibold">{review.name}</div>
                       <div>{review.date}</div>
-                      <div className="text-xs text-gray-400">TripAdvisor verified</div>
+                      <div className="text-xs text-gray-600">TripAdvisor verified</div>
                     </div>
                   </div>
                 </div>
@@ -349,7 +349,7 @@ export default function LandingPage() {
               href="https://www.tripadvisor.com/Attraction_Review-g293734-d12253955-Reviews-Asara_Morocco_Tours-Marrakech_Marrakech_Safi.html"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-600 underline hover:text-indigo-800"
+              className="text-gray-600 underline hover:text-gray-800"
             >
               Read More Reviews on TripAdvisor
             </a>
@@ -428,50 +428,131 @@ export default function LandingPage() {
       <section id="booking" className="py-24 px-6 bg-gradient-to-tr from-yellow-100 to-white">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Book Your Moroccan Journey</h2>
-          <p className="mb-10 text-lg text-gray-700">Tell us what you&apos;re looking for — we&apos;ll craft the perfect experience.</p>
+          <p className="mb-10 text-lg text-gray-700">
+            Tell us what you're looking for — we'll craft the perfect experience.
+          </p>
 
           <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow space-y-6 text-left">
-            <input name="fullName" placeholder="Full Name" required className="w-full px-4 py-3 border rounded-md" />
-
-            <div className="grid md:grid-cols-2 gap-4">
-              <input name="email" type="email" placeholder="Email Address" required className="w-full px-4 py-3 border rounded-md" />
-              <input name="phone" type="tel" placeholder="Phone Number" required className="w-full px-4 py-3 border rounded-md" />
+            {/* Full Name */}
+            <div>
+              <label htmlFor="fullName" className="sr-only">Full Name</label>
+              <input
+                id="fullName"
+                name="fullName"
+                placeholder="Full Name"
+                required
+                className="w-full px-4 py-3 border rounded-md"
+              />
             </div>
 
+            {/* Email & Phone */}
             <div className="grid md:grid-cols-2 gap-4">
-              <input name="startDate" type="date" className="w-full px-4 py-3 border rounded-md" />
-              <input name="travelers" type="number" min={1} placeholder="Number of Travelers" className="w-full px-4 py-3 border rounded-md" />
+              <div>
+                <label htmlFor="email" className="sr-only">Email Address</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="Email Address"
+                  required
+                  className="w-full px-4 py-3 border rounded-md"
+                />
+              </div>
+              <div>
+                <label htmlFor="phone" className="sr-only">Phone Number</label>
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  placeholder="Phone Number"
+                  required
+                  className="w-full px-4 py-3 border rounded-md"
+                />
+              </div>
             </div>
 
-            <select name="tour" required className="w-full px-4 py-3 border rounded-md">
-              <option value="">Select a Tour</option>
-              <option value="6day">3-Day Tour: Marrakech to Fes</option>
-              <option value="6day">3-Day Tour: Fes to Marrakech</option>
-              <option value="6day">4-Day Tour: Marrakech to Erg Chegaga</option>
-              <option value="6day">6-Day Desert Discovery</option>
-              <option value="7day">7-Day Imperial Cities</option>
-              <option value="8day">8-Day Sahara Adventure</option>
-              <option value="10day">10-Day Grand Tour</option>
-              <option value="12day">12-Day Full Morocco</option>
-              <option value="14day">14-Day Ultimate Journey</option>
-              <option value="custom">Request a Custom Tour</option>
-            </select>
+            {/* Start Date & Travelers */}
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <label htmlFor="startDate" className="sr-only">Trip Start Date</label>
+                <input
+                  id="startDate"
+                  name="startDate"
+                  type="date"
+                  className="w-full px-4 py-3 border rounded-md"
+                />
+              </div>
+              <div>
+                <label htmlFor="travelers" className="sr-only">Number of Travelers</label>
+                <input
+                  id="travelers"
+                  name="travelers"
+                  type="number"
+                  min={1}
+                  placeholder="Number of Travelers"
+                  className="w-full px-4 py-3 border rounded-md"
+                />
+              </div>
+            </div>
 
-            <textarea
-              name="message"
-              placeholder="Anything else we should know? Dates, preferences, special requests, etc."
-              className="w-full px-4 py-3 border rounded-md h-32"
-            />
+            {/* Tour Select */}
+            <div>
+              <label htmlFor="tour" className="sr-only">Select a Tour</label>
+              <select
+                id="tour"
+                name="tour"
+                required
+                className="w-full px-4 py-3 border rounded-md"
+              >
+                <option value="">Select a Tour</option>
+                <option value="3a">3-Day Tour: Marrakech to Fes</option>
+                <option value="3b">3-Day Tour: Fes to Marrakech</option>
+                <option value="4a">4-Day Tour: Marrakech to Erg Chegaga</option>
+                <option value="6day">6-Day Desert Discovery</option>
+                <option value="7day">7-Day Imperial Cities</option>
+                <option value="8day">8-Day Sahara Adventure</option>
+                <option value="10day">10-Day Grand Tour</option>
+                <option value="12day">12-Day Full Morocco</option>
+                <option value="14day">14-Day Ultimate Journey</option>
+                <option value="custom">Request a Custom Tour</option>
+              </select>
+            </div>
 
-            <button type="submit" disabled={status === 'loading'} className="w-full bg-yellow-400 text-black py-3 rounded-xl font-semibold hover:bg-yellow-300 transition">
+            {/* Message */}
+            <div>
+              <label htmlFor="message" className="sr-only">Additional Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Anything else we should know? Dates, preferences, special requests, etc."
+                className="w-full px-4 py-3 border rounded-md h-32"
+              />
+            </div>
+
+            {/* Submit */}
+            <button
+              type="submit"
+              disabled={status === 'loading'}
+              className="w-full bg-yellow-400 text-black py-3 rounded-xl font-semibold hover:bg-yellow-300 transition"
+            >
               {status === 'loading' ? 'Sending...' : 'Submit Request'}
             </button>
 
-            {status === 'success' && <p className="text-green-600 mt-4">Thank you! We’ll be in touch shortly via email or WhatsApp.</p>}
-            {status === 'error' && <p className="text-red-600 mt-4">Something went wrong. Please try again later.</p>}
+            {status === 'success' && (
+              <p className="text-green-600 mt-4">
+                Thank you! We’ll be in touch shortly via email or WhatsApp.
+              </p>
+            )}
+            {status === 'error' && (
+              <p className="text-red-600 mt-4">
+                Something went wrong. Please try again later.
+              </p>
+            )}
           </form>
         </div>
       </section>
+
+
 
 
       {/* Footer */}
