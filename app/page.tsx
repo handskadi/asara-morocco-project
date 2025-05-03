@@ -412,7 +412,13 @@ export default function LandingPage() {
       <section className="py-16 px-6 bg-green-50 text-center">
         <h2 className="text-3xl font-bold mb-4">Need Help Planning?</h2>
         <p className="text-gray-700 mb-6">We’re available 24/7 to chat about your dream Morocco adventure.</p>
-        <a href="https://wa.me/85252393767" target="_blank" className="bg-green-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-600 transition">💬 Chat on WhatsApp</a>
+        <a
+          href="https://wa.me/85252393767"
+          target="_blank"
+          className="bg-green-500 text-black px-6 py-3 rounded-xl font-semibold hover:bg-green-400 transition"
+        >
+          💬 Chat on WhatsApp
+        </a>
       </section>
 
       {/* Trust Badges */}
