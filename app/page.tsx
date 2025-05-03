@@ -428,7 +428,7 @@ export default function LandingPage() {
       <section id="booking" className="py-24 px-6 bg-gradient-to-tr from-yellow-100 to-white">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Book Your Moroccan Journey</h2>
-          <p className="mb-10 text-lg text-gray-700">Tell us what you're looking for — we'll craft the perfect experience.</p>
+          <p className="mb-10 text-lg text-gray-700">Tell us what you&apos;re looking for — we&apos;ll craft the perfect experience.</p>
 
           <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow space-y-6 text-left">
             <input name="fullName" placeholder="Full Name" required className="w-full px-4 py-3 border rounded-md" />
