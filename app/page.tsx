@@ -6,9 +6,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/autoplay';
+import { useRouter } from 'next/navigation';
 
 export default function LandingPage() {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const router = useRouter();
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const form = e.currentTarget as HTMLFormElement;
@@ -35,6 +38,8 @@ export default function LandingPage() {
       if (res.ok) {
         setStatus('success');
         form.reset();
+        // Redirect to Thank You page
+        router.push('/thank-you');
       } else {
         setStatus('error');
       }
