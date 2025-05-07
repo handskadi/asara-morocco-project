@@ -31,12 +31,18 @@ export default function RootLayout({
           src="https://www.googletagmanager.com/gtag/js?id=G-K6HNZWCY22"
           strategy="afterInteractive"
         />
+
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+
+            // Google Analytics (GA4)
             gtag('config', 'G-K6HNZWCY22');
+
+            // Google Ads Conversion Tracking
+            gtag('config', 'AW-16463312996');
           `}
         </Script>
       </head>
