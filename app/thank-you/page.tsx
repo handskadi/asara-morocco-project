@@ -27,7 +27,7 @@ export default function ThankYouPage() {
 
                 {/* Subtitle */}
                 <p className="text-lg text-gray-600 mb-6">
-                    We've received your booking request and one of our Berber travel experts will be in touch shortly.
+                    We&apos;ve received your booking request and one of our Berber travel experts will be in touch shortly.
                 </p>
 
                 {/* Call to action */}
