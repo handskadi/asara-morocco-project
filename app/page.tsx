@@ -491,6 +491,7 @@ export default function LandingPage() {
                   id="startDate"
                   name="startDate"
                   type="date"
+                  required
                   className="w-full px-4 py-3 border rounded-md"
                 />
               </div>
@@ -502,6 +503,7 @@ export default function LandingPage() {
                   type="number"
                   min={1}
                   placeholder="Number of Travelers"
+                  required
                   className="w-full px-4 py-3 border rounded-md"
                 />
               </div>
@@ -537,6 +539,7 @@ export default function LandingPage() {
                 id="message"
                 name="message"
                 placeholder="Anything else we should know? Dates, preferences, special requests, etc."
+                required
                 className="w-full px-4 py-3 border rounded-md h-32"
               />
             </div>
