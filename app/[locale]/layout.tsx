@@ -1,6 +1,7 @@
+import type { Locale } from '@/i18n';
+import { locales } from '@/i18n';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
-import { locales } from '@/i18n';
 import { Geist, Geist_Mono } from 'next/font/google';
 import Script from 'next/script';
 import '../globals.css';
@@ -19,21 +20,22 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({
     children,
-    params: { locale }
+    params,
 }: {
     children: React.ReactNode;
-    params: { locale: string };
+    params: { locale: string }; // ❗️ Not a Promise — just an object
 }) {
-    // Handle unknown locales
-    if (!locales.includes(locale as any)) notFound();
+    const locale = params.locale;
 
-    // Load the right messages
-    const messages = (await import(`../../public/locales/${locale}/messages.json`)).default;
+    // ✅ Type-safe check with no `any`
+    if (!locales.includes(locale as Locale)) notFound();
+    const typedLocale = locale as Locale;
+
+    const messages = (await import(`../../public/locales/${typedLocale}/messages.json`)).default;
 
     return (
-        <html lang={locale}>
+        <html lang={typedLocale}>
             <head>
-                {/* Google Analytics & Ads */}
                 <Script
                     src="https://www.googletagmanager.com/gtag/js?id=G-K6HNZWCY22"
                     strategy="afterInteractive"
@@ -49,7 +51,7 @@ export default async function LocaleLayout({
                 </Script>
             </head>
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-                <NextIntlClientProvider locale={locale} messages={messages}>
+                <NextIntlClientProvider locale={typedLocale} messages={messages}>
                     {children}
                 </NextIntlClientProvider>
             </body>
