@@ -1,0 +1,542 @@
+{
+  "LandingPage": {
+    "credibility": {
+      "reviews": "Des centaines d'avis 5 étoiles",
+      "expertise": "Plus de 10 ans d'expertise locale",
+      "travelers": "Approuvé par plus de 1 000 voyageurs"
+    },
+    "hero": {
+      "title": "Découvrez la Magie du Maroc avec Asara",
+      "subtitle": "Circuits privés dans le désert, villes anciennes, hospitalité berbère — le tout sur mesure pour vous.",
+      "bookButton": "Réservez maintenant",
+      "browseButton": "Voir les circuits"
+    },
+    "whyUs": {
+      "title": "Pourquoi choisir Asara Morocco ?",
+      "subtitle": "Nous sommes des experts berbères natifs offrant des expériences marocaines profondément personnalisées et inoubliables.",
+      "cards": {
+        "expertise": {
+          "title": "Expertise Locale",
+          "desc": "Nés dans l'Atlas et le Sahara, nos guides connaissent chaque sentier caché, chaque histoire et chaque coucher de soleil."
+        },
+        "customTours": {
+          "title": "Circuits Privés sur Mesure",
+          "desc": "Chaque voyage est unique — pas de circuits standardisés. Vous le rêvez, nous le créons."
+        },
+        "reputation": {
+          "title": "Réputation 5 Étoiles",
+          "desc": "Des centaines d'avis élogieux sur TripAdvisor et Google témoignent de l'excellence de notre service."
+        }
+      }
+    },
+    "toursSection": {
+      "title": "Circuits Asara Maroc",
+      "viewDetails": "Voir les détails",
+      "hideDetails": "Masquer les détails",
+      "bookThisTour": "Réserver ce circuit",
+      "fullItinerary": "— Itinéraire complet"
+    },
+    "reviewsSection": {
+      "title": "Témoignages authentiques de nos voyageurs",
+      "verified": "Vérifié par TripAdvisor",
+      "readMore": "Lire plus d'avis sur TripAdvisor"
+    },
+    "faqSection": {
+      "title": "Foire Aux Questions",
+      "subtitle": "Tout ce que vous devez savoir avant de réserver votre inoubliable voyage au Maroc."
+    },
+    "whatsapp": {
+      "title": "Besoin d'aide pour planifier ?",
+      "subtitle": "Nous sommes disponibles 24h/24 et 7j/7 pour discuter de l'aventure de vos rêves au Maroc.",
+      "button": "💬 Discuter sur WhatsApp"
+    },
+    "trustBadges": {
+      "tripadvisor": "Badge TripAdvisor",
+      "google": "Avis Google",
+      "paypal": "Paiements sécurisés"
+    },
+    "bookingForm": {
+      "title": "Réservez Votre Voyage au Maroc",
+      "subtitle": "Dites-nous ce que vous recherchez — nous créerons l'expérience parfaite.",
+      "fullName": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "travelers": "Nombre de voyageurs",
+      "selectTour": "Sélectionnez un circuit",
+      "customTour": "Demander un circuit sur mesure",
+      "requests": "Des demandes particulières ?",
+      "submit": "Envoyer la demande",
+      "sending": "Envoi en cours...",
+      "success": "Merci ! Nous vous contacterons sous peu par e-mail ou WhatsApp.",
+      "error": "Une erreur est survenue. Veuillez réessayer plus tard."
+    },
+    "footer": {
+      "copyright": "© 2025 Asara Morocco Tours. Créé avec amour dans le Sahara. Propulsé par",
+      "company": "Asara Morocco"
+    },
+    "tours": {
+      "tour3a": {
+        "name": "Circuit 3 Jours : De Marrakech à Fès",
+        "duration": "3 Jours",
+        "desc": "Marrakech • Tizi N'Tichka • Ouarzazate • Gorges du Todgha • Merzouga • Fès",
+        "itinerary": [
+          {
+            "day": "Jour 1",
+            "title": "De Marrakech à Ouarzazate",
+            "highlights": "Col de Tizi n'Tichka, Aït Benhaddou"
+          },
+          {
+            "day": "Jour 2",
+            "title": "De Ouarzazate à Merzouga",
+            "highlights": "Vallée du Dadès, Balade à dos de chameau, Coucher de soleil au Sahara"
+          },
+          {
+            "day": "Jour 3",
+            "title": "De Merzouga à Fès",
+            "highlights": "Lever de soleil au Sahara, Vallée du Ziz"
+          }
+        ]
+      },
+      "tour3b": {
+        "name": "Circuit 3 Jours : De Fès à Marrakech",
+        "duration": "3 Jours",
+        "desc": "Fès • Merzouga • Gorges du Todgha • Aït Benhaddou • Tizi N'Tichka • Marrakech",
+        "itinerary": [
+          {
+            "day": "Jour 1",
+            "title": "De Fès à Merzouga",
+            "highlights": "Moyen Atlas, Forêts de cèdres, Camp dans le désert"
+          },
+          {
+            "day": "Jour 2",
+            "title": "De Merzouga à Dadès",
+            "highlights": "Balade à dos de chameau, Gorges du Todgha, Vallée du Dadès"
+          },
+          {
+            "day": "Jour 3",
+            "title": "De Dadès à Marrakech",
+            "highlights": "Aït Benhaddou, Col du Haut Atlas"
+          }
+        ]
+      },
+      "tour4a": {
+        "name": "Circuit 4 Jours : De Marrakech à Erg Chegaga",
+        "duration": "4 Jours",
+        "desc": "Marrakech • Haut Atlas (Tichka) • Taznakht • Foum Zguid • Dunes de l'Erg Chegaga",
+        "itinerary": [
+          {
+            "day": "Jour 1",
+            "title": "De Marrakech à Agdz",
+            "highlights": "Haut Atlas, Vallée du Drâa"
+          },
+          {
+            "day": "Jour 2",
+            "title": "D'Agdz à Chegaga",
+            "highlights": "Foum Zguid, Aventure saharienne"
+          },
+          {
+            "day": "Jour 3",
+            "title": "Erg Chegaga",
+            "highlights": "Randonnée à dos de chameau, Vie nomade, Sandboard"
+          },
+          {
+            "day": "Jour 4",
+            "title": "Retour à Marrakech",
+            "highlights": "Routes panoramiques, Halte culturelle"
+          }
+        ]
+      },
+      "tour6day": {
+        "name": "Découverte du Désert en 6 Jours",
+        "duration": "6 Jours",
+        "desc": "Marrakech • Ouarzazate • Erg Chebbi • Vallée du Dadès • Balade à dos de chameau • Camp dans le désert",
+        "itinerary": [
+          {
+            "day": "Jour 1",
+            "title": "De Marrakech à Ouarzazate",
+            "highlights": "Col de Tizi n'Tichka, Aït Benhaddou"
+          },
+          {
+            "day": "Jour 2",
+            "title": "De Ouarzazate aux Gorges du Dadès",
+            "highlights": "Palmeraie de Skoura, Vallée des Roses, Canyons du Dadès"
+          },
+          {
+            "day": "Jour 3",
+            "title": "De Dadès à Merzouga",
+            "highlights": "Gorges du Todgha, Balade à dos de chameau, Coucher de soleil dans le désert"
+          },
+          {
+            "day": "Jour 4",
+            "title": "Exploration du désert",
+            "highlights": "Nomades berbères, Musique Gnaoua"
+          },
+          {
+            "day": "Jour 5",
+            "title": "Retour à Dadès",
+            "highlights": "Pistes tout-terrain, Sites de fossiles"
+          },
+          {
+            "day": "Jour 6",
+            "title": "Retour à Marrakech",
+            "highlights": "Route panoramique de retour"
+          }
+        ]
+      },
+      "tour7day": {
+        "name": "Villes Impériales en 7 Jours",
+        "duration": "7 Jours",
+        "desc": "Casablanca • Rabat • Fès • Meknès • Chefchaouen • Visites guidées des médinas",
+        "itinerary": [
+          {
+            "day": "Jour 1",
+            "title": "De Casablanca à Rabat",
+            "highlights": "Mosquée Hassan II, Kasbah des Oudayas"
+          },
+          {
+            "day": "Jour 2",
+            "title": "De Rabat à Meknès",
+            "highlights": "Palais Royal, Volubilis"
+          },
+          {
+            "day": "Jour 3",
+            "title": "De Meknès à Fès",
+            "highlights": "Promenade dans la médina, Ateliers de poterie"
+          },
+          {
+            "day": "Jour 4",
+            "title": "Exploration de Fès",
+            "highlights": "Tanneries, Médersas"
+          },
+          {
+            "day": "Jour 5",
+            "title": "De Fès à Chefchaouen",
+            "highlights": "Route à travers les montagnes du Rif"
+          },
+          {
+            "day": "Jour 6",
+            "title": "Chefchaouen",
+            "highlights": "La médina bleue, Mosquée espagnole"
+          },
+          {
+            "day": "Jour 7",
+            "title": "Retour à Casablanca",
+            "highlights": "Temps libre et transfert à l'aéroport"
+          }
+        ]
+      },
+      "tour8day": {
+        "name": "Aventure Saharienne en 8 Jours",
+        "duration": "8 Jours",
+        "desc": "De Marrakech à Fès • Dunes de l'Erg Chebbi • Gorges du Todra • Expériences culturelles",
+        "itinerary": [
+          {
+            "day": "Jour 1",
+            "title": "De Marrakech à Aït Benhaddou",
+            "highlights": "Haut Atlas, Arrêt à la Kasbah"
+          },
+          {
+            "day": "Jour 2",
+            "title": "Vers Dadès",
+            "highlights": "Vallée des Roses, Promenade dans les gorges"
+          },
+          {
+            "day": "Jour 3",
+            "title": "De Dadès à Merzouga",
+            "highlights": "Gorges du Todra, Camp dans le désert"
+          },
+          {
+            "day": "Jour 4",
+            "title": "Erg Chebbi",
+            "highlights": "Balade à dos de chameau, Culture du désert"
+          },
+          {
+            "day": "Jour 5",
+            "title": "De Merzouga à Midelt",
+            "highlights": "Vallée du Ziz, Villages berbères"
+          },
+          {
+            "day": "Jour 6",
+            "title": "De Midelt à Fès",
+            "highlights": "Forêts de cèdres, Vues sur la montagne"
+          },
+          {
+            "day": "Jour 7",
+            "title": "Visite de Fès",
+            "highlights": "Médina, Palais Royal"
+          },
+          {
+            "day": "Jour 8",
+            "title": "Départ de Fès",
+            "highlights": "Souvenirs, Transfert à l'aéroport"
+          }
+        ]
+      },
+      "tour10day": {
+        "name": "Grand Tour de 10 Jours",
+        "duration": "10 Jours",
+        "desc": "Marrakech • Montagnes de l'Atlas • Désert du Sahara • Aït Benhaddou • Essaouira",
+        "itinerary": [
+          {
+            "day": "Jour 1",
+            "title": "Arrivée à Marrakech",
+            "highlights": "Jemaa El Fna"
+          },
+          {
+            "day": "Jour 2",
+            "title": "Montagnes de l'Atlas",
+            "highlights": "Imlil, Vues panoramiques"
+          },
+          {
+            "day": "Jour 3",
+            "title": "Vers Ouarzazate",
+            "highlights": "Aït Benhaddou, Kasbahs"
+          },
+          {
+            "day": "Jour 4",
+            "title": "Direction le désert",
+            "highlights": "Vallée du Dadès, Gorges du Todra"
+          },
+          {
+            "day": "Jour 5",
+            "title": "Camp de Merzouga",
+            "highlights": "Balade à dos de chameau, Ciel étoilé"
+          },
+          {
+            "day": "Jour 6",
+            "title": "Retour via la Vallée du Drâa",
+            "highlights": "Palmeraies, Ksour"
+          },
+          {
+            "day": "Jour 7",
+            "title": "Taroudant",
+            "highlights": "Marchés, Remparts"
+          },
+          {
+            "day": "Jour 8",
+            "title": "Essaouira",
+            "highlights": "Médina en bord de mer"
+          },
+          {
+            "day": "Jour 9",
+            "title": "Retour à Marrakech",
+            "highlights": "Shopping & Détente"
+          },
+          {
+            "day": "Jour 10",
+            "title": "Départ",
+            "highlights": "Transfert d'adieu"
+          }
+        ]
+      },
+      "tour12day": {
+        "name": "Le Maroc Complet en 12 Jours",
+        "duration": "12 Jours",
+        "desc": "Toutes les grandes villes + désert • Itinéraires hors des sentiers battus • Moments culinaires locaux",
+        "itinerary": [
+          {
+            "day": "Jour 1",
+            "title": "Arrivée à Casablanca",
+            "highlights": "Promenade en ville, Dîner"
+          },
+          {
+            "day": "Jour 2",
+            "title": "Visite de Rabat",
+            "highlights": "Chellah, Mausolée"
+          },
+          {
+            "day": "Jour 3",
+            "title": "Chefchaouen",
+            "highlights": "Les rues bleues"
+          },
+          {
+            "day": "Jour 4",
+            "title": "Vers Fès",
+            "highlights": "Route de montagne"
+          },
+          {
+            "day": "Jour 5",
+            "title": "Visite de la ville de Fès",
+            "highlights": "Artisans, Histoire"
+          },
+          {
+            "day": "Jour 6",
+            "title": "Vers Merzouga",
+            "highlights": "Début du désert"
+          },
+          {
+            "day": "Jour 7",
+            "title": "Journée au Sahara",
+            "highlights": "Culture, Musique"
+          },
+          {
+            "day": "Jour 8",
+            "title": "Vers Todra",
+            "highlights": "Randonnée dans les gorges"
+          },
+          {
+            "day": "Jour 9",
+            "title": "Vers Aït Benhaddou",
+            "highlights": "Patrimoine"
+          },
+          {
+            "day": "Jour 10",
+            "title": "De l'Atlas à Marrakech",
+            "highlights": "Tizi n'Tichka"
+          },
+          {
+            "day": "Jour 11",
+            "title": "Explorer Marrakech",
+            "highlights": "Palais, Marchés"
+          },
+          {
+            "day": "Jour 12",
+            "title": "Départ",
+            "highlights": "Transfert à l'aéroport"
+          }
+        ]
+      },
+      "tour14day": {
+        "name": "Le Voyage Ultime de 14 Jours",
+        "duration": "14 Jours",
+        "desc": "Le Maroc complet • Du Nord au Sud • Plages • Désert • Culture • Immersion réelle",
+        "itinerary": [
+          {
+            "day": "Jour 1",
+            "title": "Casablanca",
+            "highlights": "Arrivée & Accueil"
+          },
+          {
+            "day": "Jour 2",
+            "title": "Rabat",
+            "highlights": "Monuments de la capitale"
+          },
+          {
+            "day": "Jour 3",
+            "title": "Chefchaouen",
+            "highlights": "La médina bleue"
+          },
+          {
+            "day": "Jour 4",
+            "title": "Fès",
+            "highlights": "Patrimoine culturel"
+          },
+          {
+            "day": "Jour 5",
+            "title": "Ifrane & Midelt",
+            "highlights": "Forêt de cèdres"
+          },
+          {
+            "day": "Jour 6",
+            "title": "Erfoud",
+            "highlights": "Porte du désert"
+          },
+          {
+            "day": "Jour 7",
+            "title": "Merzouga",
+            "highlights": "Randonnée à dos de chameau"
+          },
+          {
+            "day": "Jour 8",
+            "title": "Vallée du Dadès",
+            "highlights": "Vues sur le canyon"
+          },
+          {
+            "day": "Jour 9",
+            "title": "Ouarzazate",
+            "highlights": "Sites de cinéma"
+          },
+          {
+            "day": "Jour 10",
+            "title": "Agadir",
+            "highlights": "Arrêt à la plage"
+          },
+          {
+            "day": "Jour 11",
+            "title": "Essaouira",
+            "highlights": "La Cité des Alizés"
+          },
+          {
+            "day": "Jour 12",
+            "title": "Vers Marrakech",
+            "highlights": "Route côtière"
+          },
+          {
+            "day": "Jour 13",
+            "title": "Visite de Marrakech",
+            "highlights": "Souks, Palais"
+          },
+          {
+            "day": "Jour 14",
+            "title": "Adieu",
+            "highlights": "Transfert à l'aéroport"
+          }
+        ]
+      }
+    },
+    "reviews": {
+      "review1": {
+        "name": "Cinzia B",
+        "summary": "Merveilleux Maroc",
+        "text": "Super circuit et excellente expérience. Nous avons reçu de bons conseils et des explications sur le Maroc et sa culture de la part de notre guide et chauffeur Rashid.",
+        "date": "21 avril 2025"
+      },
+      "review2": {
+        "name": "Elena F",
+        "summary": "Parfait et hautement recommandé ❤️",
+        "text": "Des rues bleues de Chefchaouen à la célébration de l'Aïd avec la famille de Jamal, chaque moment a été personnel, joyeux et inoubliable.",
+        "date": "5 avril 2025"
+      },
+      "review3": {
+        "name": "Sjoerd K",
+        "summary": "Le meilleur endroit pour votre voyage au Maroc !",
+        "text": "Jamal a été un guide exceptionnel qui nous a fait nous sentir en sécurité et bien accueillis tout au long du séjour. Tout était bien organisé et sans stress.",
+        "date": "5 avril 2025"
+      },
+      "review4": {
+        "name": "Ernest",
+        "summary": "Circuit de 2 jours à Aït Ben Haddou",
+        "text": "Un voyage de dernière minute mais bien organisé. Jamal a tout rendu facile, avec un excellent hébergement et une planification réfléchie.",
+        "date": "16 décembre 2024"
+      },
+      "review5": {
+        "name": "Natalia Mello",
+        "summary": "Super circuits et des gens incroyables",
+        "text": "En tant que voyageuse solo, je me suis sentie totalement en sécurité et soutenue. Leur aide est allée au-delà du simple circuit. 100% recommandé !",
+        "date": "8 décembre 2024"
+      },
+      "review6": {
+        "name": "Agnes T",
+        "summary": "15 jours à travers le Maroc !",
+        "text": "Notre famille a découvert le Maroc comme jamais auparavant — Sahara, Fès, Essaouira. Un immense merci à Jamal et Abdoul pour avoir rendu ce voyage magique.",
+        "date": "18 novembre 2024"
+      }
+    },
+    "faqs": {
+      "faq1": {
+        "q": "Le Maroc est-il sûr pour les voyageurs ?",
+        "a": "Oui — le Maroc est l'un des pays les plus sûrs d'Afrique du Nord, surtout lorsque vous voyagez avec des guides locaux expérimentés comme nous. Nous guidons des familles, des voyageurs en solo et des couples depuis plus d'une décennie sans incident."
+      },
+      "faq2": {
+        "q": "Vos circuits sont-ils privés ou partagés ?",
+        "a": "Tous nos circuits sont 100% privés. Vous ne serez jamais regroupé avec des inconnus. C'est votre voyage, votre emploi du temps, votre rythme."
+      },
+      "faq3": {
+        "q": "Pouvez-vous personnaliser l'itinéraire pour nous ?",
+        "a": "Absolument. Chaque circuit que nous proposons est adapté à vos centres d'intérêt, que ce soit plus de temps dans le Sahara, des arrêts gastronomiques ou des villages de montagne cachés."
+      },
+      "faq4": {
+        "q": "Proposez-vous des repas végétariens ou végétaliens ?",
+        "a": "Oui ! Nous sommes heureux de répondre à tous les besoins alimentaires. Beaucoup de nos clients sont végétariens ou végétaliens — la cuisine marocaine est flexible et savoureuse."
+      },
+      "faq5": {
+        "q": "Les circuits incluent-ils la prise en charge et le retour à l'aéroport ?",
+        "a": "Oui — la plupart de nos forfaits incluent des transferts aéroport confortables, pour que votre voyage commence et se termine en toute simplicité."
+      },
+      "faq6": {
+        "q": "L'expérience de camping dans le désert est-elle confortable ?",
+        "a": "Nos camps de luxe dans le désert offrent des tentes privées et propres avec de vrais lits, des salles de bains privées, l'électricité et une décoration marocaine traditionnelle — le confort est garanti."
+      }
+    }
+  }
+}

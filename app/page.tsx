@@ -7,6 +7,7 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import { useRouter } from 'next/navigation';
+import LanguageSwitcher from './[locale]/LanguageSwitcher';
 
 export default function LandingPage() {
     const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
@@ -230,6 +231,7 @@ export default function LandingPage() {
                             <span>Trusted by 1,000+ Travelers</span>
                         </div>
                     </div>
+
                 </div>
 
                 {/* Background Image */}

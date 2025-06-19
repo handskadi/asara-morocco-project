@@ -1,0 +1,518 @@
+{
+  "LandingPage": {
+    "credibility": {
+      "reviews": "Hundreds of 5-Star Reviews",
+      "expertise": "10+ Years of Local Expertise",
+      "travelers": "Trusted by 1,000+ Travelers"
+    },
+    "hero": {
+      "title": "Discover Morocco’s Magic with Asara",
+      "subtitle": "Private desert tours, ancient cities, Berber hospitality — all tailored to you.",
+      "bookButton": "Book Now",
+      "browseButton": "Browse Tours"
+    },
+    "whyUs": {
+      "title": "Why Choose Asara Morocco?",
+      "subtitle": "We’re native Berber experts offering deeply personalized and unforgettable Moroccan experiences.",
+      "cards": {
+        "expertise": {
+          "title": "Local Expertise",
+          "desc": "Born in the Atlas and Sahara, our guides know every hidden path, story, and sunset."
+        },
+        "customTours": {
+          "title": "Custom Private Tours",
+          "desc": "Every journey is tailored — no cookie-cutter trips. You dream it, we build it."
+        },
+        "reputation": {
+          "title": "5-Star Reputation",
+          "desc": "Hundreds of glowing TripAdvisor and Google reviews reflect our service excellence."
+        }
+      }
+    },
+    "toursSection": {
+      "title": "Asara Moroccan Tours",
+      "viewDetails": "View Details",
+      "hideDetails": "Hide Details",
+      "bookThisTour": "Book This Tour",
+      "fullItinerary": "— Full Itinerary"
+    },
+    "reviewsSection": {
+      "title": "Real Experiences From Our Travelers",
+      "verified": "TripAdvisor verified",
+      "readMore": "Read More Reviews on TripAdvisor"
+    },
+    "faqSection": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know before booking your unforgettable Moroccan journey."
+    },
+    "whatsapp": {
+      "title": "Need Help Planning?",
+      "subtitle": "We’re available 24/7 to chat about your dream Morocco adventure.",
+      "button": "💬 Chat on WhatsApp"
+    },
+    "trustBadges": {
+      "tripadvisor": "TripAdvisor Badge",
+      "google": "Google Reviews",
+      "paypal": "Secure Payments"
+    },
+    "bookingForm": {
+      "title": "Book Your Moroccan Journey",
+      "subtitle": "Tell us what you're looking for — we'll craft the perfect experience.",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "travelers": "Number of Travelers",
+      "selectTour": "Select a Tour",
+      "customTour": "Request a Custom Tour",
+      "requests": "Any special requests?",
+      "submit": "Submit Request",
+      "sending": "Sending...",
+      "success": "Thank you! We’ll be in touch shortly via email or WhatsApp.",
+      "error": "Something went wrong. Please try again later."
+    },
+    "footer": {
+      "copyright": "© 2025 Asara Morocco Tours. Crafted with love in the Sahara. Powered by",
+      "company": "Asara Morocco"
+    },
+    "tours": {
+      "tour3a": {
+        "name": "3-Day Tour: Marrakech to Fes",
+        "duration": "3 Days",
+        "desc": "Marrakech • Tizi N'Tichka • Ouarzazate • Todgha Gorges • Merzouga • Fes",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Marrakech to Ouarzazate",
+            "highlights": "Tizi n'Tichka Pass, Ait Benhaddou"
+          },
+          {
+            "day": "Day 2",
+            "title": "Ouarzazate to Merzouga",
+            "highlights": "Dades Valley, Camel Ride, Sahara Sunset"
+          },
+          {
+            "day": "Day 3",
+            "title": "Merzouga to Fes",
+            "highlights": "Sunrise in the Sahara, Ziz Valley"
+          }
+        ]
+      },
+      "tour3b": {
+        "name": "3-Day Tour: Fes to Marrakech",
+        "duration": "3 Days",
+        "desc": "Fes • Merzouga • Todgha Gorges • Ait Benhaddou • Tizi N'Tichka • Marrakech",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Fes to Merzouga",
+            "highlights": "Middle Atlas Mountains, Cedar Forests, Desert Camp"
+          },
+          {
+            "day": "Day 2",
+            "title": "Merzouga to Dades",
+            "highlights": "Camel Ride, Todgha Gorge, Dades Valley"
+          },
+          {
+            "day": "Day 3",
+            "title": "Dades to Marrakech",
+            "highlights": "Ait Benhaddou, High Atlas Pass"
+          }
+        ]
+      },
+      "tour4a": {
+        "name": "4-Day Tour: Marrakech to Erg Chegaga",
+        "duration": "4 Days",
+        "desc": "Marrakech • High Atlas (Tichka) • Taznakht • Foum Zguid • Erg Chegaga Dunes",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Marrakech to Agdz",
+            "highlights": "High Atlas Mountains, Draa Valley"
+          },
+          {
+            "day": "Day 2",
+            "title": "Agdz to Chegaga",
+            "highlights": "Foum Zguid, Sahara Adventure"
+          },
+          {
+            "day": "Day 3",
+            "title": "Erg Chegaga",
+            "highlights": "Camel Trek, Nomadic Life, Sandboarding"
+          },
+          {
+            "day": "Day 4",
+            "title": "Return to Marrakech",
+            "highlights": "Scenic Drives, Cultural Stops"
+          }
+        ]
+      },
+      "tour6day": {
+        "name": "6-Day Desert Discovery",
+        "duration": "6 Days",
+        "desc": "Marrakech • Ouarzazate • Erg Chebbi • Dades Valley • Camel Ride • Desert Camp",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Marrakech to Ouarzazate",
+            "highlights": "Tizi n'Tichka Pass, Ait Benhaddou"
+          },
+          {
+            "day": "Day 2",
+            "title": "Ouarzazate to Dades Gorge",
+            "highlights": "Skoura Palm Grove, Rose Valley, Dades Canyons"
+          },
+          {
+            "day": "Day 3",
+            "title": "Dades to Merzouga",
+            "highlights": "Todgha Gorge, Camel Ride, Desert Sunset"
+          },
+          {
+            "day": "Day 4",
+            "title": "Desert Exploration",
+            "highlights": "Berber Nomads, Gnawa Music"
+          },
+          {
+            "day": "Day 5",
+            "title": "Return to Dades",
+            "highlights": "Off-road Routes, Fossil Sites"
+          },
+          {
+            "day": "Day 6",
+            "title": "Back to Marrakech",
+            "highlights": "Scenic Route Return"
+          }
+        ]
+      },
+      "tour7day": {
+        "name": "7-Day Imperial Cities",
+        "duration": "7 Days",
+        "desc": "Casablanca • Rabat • Fes • Meknes • Chefchaouen • Guided Medina Walks",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Casablanca to Rabat",
+            "highlights": "Hassan II Mosque, Oudayas Kasbah"
+          },
+          {
+            "day": "Day 2",
+            "title": "Rabat to Meknes",
+            "highlights": "Royal Palace, Volubilis"
+          },
+          {
+            "day": "Day 3",
+            "title": "Meknes to Fes",
+            "highlights": "Medina Walk, Pottery Workshops"
+          },
+          {
+            "day": "Day 4",
+            "title": "Fes Exploration",
+            "highlights": "Tanneries, Madrasas"
+          },
+          {
+            "day": "Day 5",
+            "title": "Fes to Chefchaouen",
+            "highlights": "Rif Mountains Drive"
+          },
+          {
+            "day": "Day 6",
+            "title": "Chefchaouen",
+            "highlights": "Blue Medina, Spanish Mosque"
+          },
+          {
+            "day": "Day 7",
+            "title": "Back to Casablanca",
+            "highlights": "Free Time & Airport Transfer"
+          }
+        ]
+      },
+      "tour8day": {
+        "name": "8-Day Sahara Adventure",
+        "duration": "8 Days",
+        "desc": "Marrakech to Fes • Erg Chebbi Dunes • Todra Gorge • Cultural Experiences",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Marrakech to Ait Benhaddou",
+            "highlights": "High Atlas, Kasbah Stop"
+          },
+          {
+            "day": "Day 2",
+            "title": "To Dades",
+            "highlights": "Rose Valley, Gorge Walk"
+          },
+          {
+            "day": "Day 3",
+            "title": "Dades to Merzouga",
+            "highlights": "Todra Gorge, Desert Camp"
+          },
+          {
+            "day": "Day 4",
+            "title": "Erg Chebbi",
+            "highlights": "Camel Ride, Desert Culture"
+          },
+          {
+            "day": "Day 5",
+            "title": "Merzouga to Midelt",
+            "highlights": "Ziz Valley, Berber Villages"
+          },
+          {
+            "day": "Day 6",
+            "title": "Midelt to Fes",
+            "highlights": "Cedar Forests, Mountain Views"
+          },
+          {
+            "day": "Day 7",
+            "title": "Fes Tour",
+            "highlights": "Medina, Royal Palace"
+          },
+          {
+            "day": "Day 8",
+            "title": "Fes Departure",
+            "highlights": "Souvenirs, Airport Drop"
+          }
+        ]
+      },
+      "tour10day": {
+        "name": "10-Day Grand Tour",
+        "duration": "10 Days",
+        "desc": "Marrakech • Atlas Mountains • Sahara Desert • Ait Benhaddou • Essaouira",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Arrival in Marrakech",
+            "highlights": "Jemaa El Fnaa"
+          },
+          {
+            "day": "Day 2",
+            "title": "Atlas Mountains",
+            "highlights": "Imlil, Scenic Views"
+          },
+          {
+            "day": "Day 3",
+            "title": "To Ouarzazate",
+            "highlights": "Ait Benhaddou, Kasbahs"
+          },
+          {
+            "day": "Day 4",
+            "title": "Desert Bound",
+            "highlights": "Dades Valley, Todra Gorge"
+          },
+          {
+            "day": "Day 5",
+            "title": "Merzouga Camp",
+            "highlights": "Camel Ride, Stars"
+          },
+          {
+            "day": "Day 6",
+            "title": "Return via Draa",
+            "highlights": "Palms, Ksars"
+          },
+          {
+            "day": "Day 7",
+            "title": "Taroudant",
+            "highlights": "Markets, Walls"
+          },
+          {
+            "day": "Day 8",
+            "title": "Essaouira",
+            "highlights": "Seaside Medina"
+          },
+          {
+            "day": "Day 9",
+            "title": "Back to Marrakech",
+            "highlights": "Shopping & Relax"
+          },
+          {
+            "day": "Day 10",
+            "title": "Departure",
+            "highlights": "Farewell Transfer"
+          }
+        ]
+      },
+      "tour12day": {
+        "name": "12-Day Full Morocco",
+        "duration": "12 Days",
+        "desc": "All major cities + desert • Off-the-beaten path routes • Local culinary moments",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Casablanca Arrival",
+            "highlights": "City Walk, Dinner"
+          },
+          {
+            "day": "Day 2",
+            "title": "Rabat Tour",
+            "highlights": "Chellah, Mausoleum"
+          },
+          {
+            "day": "Day 3",
+            "title": "Chefchaouen",
+            "highlights": "Blue Streets"
+          },
+          { "day": "Day 4", "title": "To Fes", "highlights": "Mountain Route" },
+          {
+            "day": "Day 5",
+            "title": "Fes City Tour",
+            "highlights": "Artisans, History"
+          },
+          {
+            "day": "Day 6",
+            "title": "To Merzouga",
+            "highlights": "Desert Start"
+          },
+          {
+            "day": "Day 7",
+            "title": "Sahara Day",
+            "highlights": "Culture, Music"
+          },
+          { "day": "Day 8", "title": "To Todra", "highlights": "Gorge Trek" },
+          {
+            "day": "Day 9",
+            "title": "To Ait Benhaddou",
+            "highlights": "Heritage"
+          },
+          {
+            "day": "Day 10",
+            "title": "Atlas to Marrakech",
+            "highlights": "Tizi n'Tichka"
+          },
+          {
+            "day": "Day 11",
+            "title": "Explore Marrakech",
+            "highlights": "Palaces, Markets"
+          },
+          {
+            "day": "Day 12",
+            "title": "Departure",
+            "highlights": "Airport Drop"
+          }
+        ]
+      },
+      "tour14day": {
+        "name": "14-Day Ultimate Journey",
+        "duration": "14 Days",
+        "desc": "Complete Morocco • North to South • Beaches • Desert • Culture • Real immersion",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Casablanca",
+            "highlights": "Arrival & Welcome"
+          },
+          {
+            "day": "Day 2",
+            "title": "Rabat",
+            "highlights": "Capital Landmarks"
+          },
+          {
+            "day": "Day 3",
+            "title": "Chefchaouen",
+            "highlights": "Blue Medina"
+          },
+          { "day": "Day 4", "title": "Fes", "highlights": "Cultural Heritage" },
+          {
+            "day": "Day 5",
+            "title": "Ifrane & Midelt",
+            "highlights": "Cedar Forest"
+          },
+          { "day": "Day 6", "title": "Erfoud", "highlights": "Desert Gateway" },
+          { "day": "Day 7", "title": "Merzouga", "highlights": "Camel Trek" },
+          {
+            "day": "Day 8",
+            "title": "Dades Valley",
+            "highlights": "Canyon Views"
+          },
+          {
+            "day": "Day 9",
+            "title": "Ouarzazate",
+            "highlights": "Cinema Sites"
+          },
+          { "day": "Day 10", "title": "Agadir", "highlights": "Beach Stop" },
+          {
+            "day": "Day 11",
+            "title": "Essaouira",
+            "highlights": "Windsurfing City"
+          },
+          {
+            "day": "Day 12",
+            "title": "To Marrakech",
+            "highlights": "Drive Coastal"
+          },
+          {
+            "day": "Day 13",
+            "title": "Marrakech Tour",
+            "highlights": "Souks, Palaces"
+          },
+          {
+            "day": "Day 14",
+            "title": "Farewell",
+            "highlights": "Airport Transfer"
+          }
+        ]
+      }
+    },
+    "reviews": {
+      "review1": {
+        "name": "Cinzia B",
+        "summary": "Wonderful Morocco",
+        "text": "Great tour and great experience. We got good advice and explanations about Morocco and its culture from our guide and driver Rashid.",
+        "date": "April 21, 2025"
+      },
+      "review2": {
+        "name": "Elena F",
+        "summary": "Perfect and highly recommended ❤️",
+        "text": "From the blue streets of Chefchaouen to celebrating Eid with Jamal’s family, every moment was personal, joyful, and unforgettable.",
+        "date": "April 5, 2025"
+      },
+      "review3": {
+        "name": "Sjoerd K",
+        "summary": "The best place for your Morocco trip!",
+        "text": "Jamal was an exceptional guide who made us feel safe and welcomed throughout. Everything was well arranged without stress.",
+        "date": "April 5, 2025"
+      },
+      "review4": {
+        "name": "Ernest",
+        "summary": "2-Day Ait Ben Haddou Tour",
+        "text": "A last-minute but well-organized trip. Jamal made it smooth, with great accommodations and thoughtful planning.",
+        "date": "Dec 16, 2024"
+      },
+      "review5": {
+        "name": "Natalia Mello",
+        "summary": "Great tours and amazing people",
+        "text": "As a solo traveler, I felt completely safe and supported. Their help went beyond the tour. 100% recommended!",
+        "date": "Dec 8, 2024"
+      },
+      "review6": {
+        "name": "Agnes T",
+        "summary": "15 days around Morocco!",
+        "text": "Our family experienced Morocco like never before — Sahara, Fez, Essaouira. Huge thanks to Jamal and Abdoul for making it magical.",
+        "date": "Nov 18, 2024"
+      }
+    },
+    "faqs": {
+      "faq1": {
+        "q": "Is Morocco safe for travelers?",
+        "a": "Yes — Morocco is one of the safest countries in North Africa, especially when you travel with experienced local guides like us. We’ve guided families, solo travelers, and couples for over a decade without incident."
+      },
+      "faq2": {
+        "q": "Are your tours private or shared?",
+        "a": "All tours are 100% private. You’ll never be grouped with strangers. It’s your trip, your schedule, your pace."
+      },
+      "faq3": {
+        "q": "Can you customize the itinerary for us?",
+        "a": "Absolutely. Every tour we offer is tailored to your interests, whether that’s more time in the Sahara, foodie stops, or hidden mountain villages."
+      },
+      "faq4": {
+        "q": "Do you offer vegetarian or vegan meals?",
+        "a": "Yes! We’re happy to accommodate any dietary needs. Many of our clients are vegetarian or vegan — Morocco’s cuisine is flexible and flavorful."
+      },
+      "faq5": {
+        "q": "Do tours include airport pickup and drop-off?",
+        "a": "Yes — most of our packages include comfortable airport transfers, so your journey starts and ends with ease."
+      },
+      "faq6": {
+        "q": "Is the desert camping experience comfortable?",
+        "a": "Our luxury desert camps offer clean private tents with real beds, private bathrooms, electricity, and traditional Moroccan decor — no roughing it here."
+      }
+    }
+  }
+}
