@@ -23,7 +23,7 @@ export default function LandingPage() {
     const [selectedTourName, setSelectedTourName] = useState('');
 
     // Dynamically build data from translations
-    const tourIds = ["tour3a", "tour3b", "tour4a", "tour6day", "tour7day", "tour8day", "tour10day", "tour12day", "tour14day"];
+    const tourIds = ["tour2day", "tour3a", "tour3b", "tour4a", "tour6day", "tour7day", "tour8day", "tour10day", "tour12day", "tour14day"];
     const tours = tourIds.map(id => ({
         id,
         image: `/${id.replace('tour', '')}.webp`, // A placeholder for image logic
@@ -54,6 +54,7 @@ export default function LandingPage() {
 
     // Your image paths might need adjusting
     const tourImages: { [key: string]: string } = {
+        tour2day: "/ouarzazate-ait-ben-haddou.webp",
         tour3a: "/fes-medina.webp",
         tour3b: "/ait-ben-haddou-2.webp",
         tour4a: "/ergchegaga.webp",

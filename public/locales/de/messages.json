@@ -456,6 +456,23 @@
             "highlights": "Flughafentransfer"
           }
         ]
+      },
+      "tour2day": {
+        "name": "2-Tages-Tour: Marrakesch nach Ait Ben Haddou",
+        "duration": "2 Tage",
+        "desc": "Marrakesch • Hohen Atlas • Ait Ben Haddou • Ouarzazate • Filmstudios • UNESCO-Weltkulturerbe",
+        "itinerary": [
+          {
+            "day": "Tag 1",
+            "title": "Von Marrakesch über Tizi n'Tichka nach Ait Ben Haddou",
+            "highlights": "Früher Start mit einer landschaftlich reizvollen Fahrt von Marrakesch über den atemberaubenden Hohen Atlas über den Tizi n'Tichka Pass. Ankunft in Ait Ben Haddou, Check-in im Hotel und entspanntes Mittagessen. Verbringen Sie den Nachmittag mit der Erkundung der ikonischen Kasbah von Ait Ben Haddou, einem UNESCO-Weltkulturerbe, bekannt für seine beeindruckende Architektur und als Drehort berühmter Filme wie Gladiator und Lawrence von Arabien. Beenden Sie den Tag mit einem ruhigen Abend im Hotel."
+          },
+          {
+            "day": "Tag 2",
+            "title": "Von Ait Ben Haddou nach Ouarzazate und Marrakesch",
+            "highlights": "Nach dem Frühstück Besuch von Ouarzazate mit den berühmten Filmstudios und der historischen Taourirt Kasbah. Nach dem Mittagessen Rückfahrt über den Hohen Atlas nach Marrakesch, genießen Sie die malerischen Ausblicke unterwegs. Ankunft in Marrakesch am späten Nachmittag oder Abend, damit endet Ihr bereicherndes zweitägiges Abenteuer."
+          }
+        ]
       }
     },
     "reviews": {

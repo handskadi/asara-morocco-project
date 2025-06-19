@@ -472,6 +472,23 @@
             "highlights": "Trasferimento in aeroporto"
           }
         ]
+      },
+      "tour2day": {
+        "name": "Tour di 2 Giorni: Marrakech ad Ait Ben Haddou",
+        "duration": "2 Giorni",
+        "desc": "Marrakech • Montagne dell'Alto Atlante • Ait Ben Haddou • Ouarzazate • Studi Cinematografici • Patrimonio UNESCO",
+        "itinerary": [
+          {
+            "day": "Giorno 1",
+            "title": "Da Marrakech a Tizi n'Tichka e Ait Ben Haddou",
+            "highlights": "Partenza presto da Marrakech con un suggestivo viaggio attraverso le spettacolari montagne dell'Alto Atlante, passando per il passo Tizi n'Tichka. All'arrivo ad Ait Ben Haddou, sistemazione in hotel e pranzo rilassante. Nel pomeriggio, esplora l'iconica Kasbah di Ait Ben Haddou, sito patrimonio mondiale dell'UNESCO noto per la sua architettura straordinaria e come location di film famosi come Gladiatore e Lawrence d'Arabia. Concludi la giornata con una serata tranquilla in hotel."
+          },
+          {
+            "day": "Giorno 2",
+            "title": "Da Ait Ben Haddou a Ouarzazate e Marrakech",
+            "highlights": "Dopo la colazione, visita Ouarzazate per un tour degli famosi studi cinematografici e della storica Kasbah Taourirt. Dopo pranzo, ritorno a Marrakech attraversando nuovamente le montagne dell'Alto Atlante, godendo dei panorami spettacolari lungo il percorso. Arrivo a Marrakech nel tardo pomeriggio o sera, concludendo così il tuo ricco viaggio di due giorni."
+          }
+        ]
       }
     },
     "reviews": {
