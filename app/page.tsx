@@ -598,7 +598,7 @@ export default function LandingPage() {
                         <select
                             id="tour"
                             name="tour"
-                            required
+
                             value={selectedTourName}
                             onChange={(e) => setSelectedTourName(e.target.value)}
                             className="w-full px-4 py-3 border rounded-md"
