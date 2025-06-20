@@ -573,7 +573,7 @@ export default function LandingPage() {
                                 name="phone"
                                 type="tel"
                                 placeholder="Phone Number"
-                                required
+
                                 className="w-full px-4 py-3 border rounded-md"
                             />
                         </div>
