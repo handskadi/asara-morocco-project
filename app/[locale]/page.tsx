@@ -300,13 +300,13 @@ export default function LandingPage() {
                         <input id="fullName" name="fullName" placeholder={t('bookingForm.fullName')} required className="w-full px-4 py-3 border rounded-md" />
                         <div className="grid md:grid-cols-2 gap-4">
                             <input id="email" name="email" type="email" placeholder={t('bookingForm.email')} required className="w-full px-4 py-3 border rounded-md" />
-                            <input id="phone" name="phone" type="tel" placeholder={t('bookingForm.phone')} required className="w-full px-4 py-3 border rounded-md" />
+                            <input id="phone" name="phone" type="tel" placeholder={t('bookingForm.phone')} className="w-full px-4 py-3 border rounded-md" />
                         </div>
                         <div className="grid md:grid-cols-2 gap-4">
                             <input id="startDate" name="startDate" type="date" required className="w-full px-4 py-3 border rounded-md" />
                             <input id="travelers" name="travelers" type="number" min={1} placeholder={t('bookingForm.travelers')} required className="w-full px-4 py-3 border rounded-md" />
                         </div>
-                        <select id="tour" name="tour" required value={selectedTourName} onChange={(e) => setSelectedTourName(e.target.value)} className="w-full px-4 py-3 border rounded-md">
+                        <select id="tour" name="tour" value={selectedTourName} onChange={(e) => setSelectedTourName(e.target.value)} className="w-full px-4 py-3 border rounded-md">
                             <option value="">{t('bookingForm.selectTour')}</option>
                             {tours.map(t => (<option key={t.id} value={t.name}>{t.name}</option>))}
                             <option value="custom">{t('bookingForm.customTour')}</option>
